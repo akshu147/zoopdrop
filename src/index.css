@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+body {
+  background: #030712;
+}
+.headerlogo {
+  background-image: url('./assets/images/logolalit.png');
+  background-size: cover;
+  background-position: center center;
+}
+.pac-container {
+  background-color:  rgb(198, 217, 237) !important;
+  box-shadow: 0 0 3px lightblue !important;
+  font-size: 14px !important;
+  z-index: 10000 !important; /* Make sure it appears above other elements */
+  border-radius: 20px !important;
+  position: absolute !important;
+  /* left:-20px !important; */
+  /* top: 50% !important; */
+
+  
+}
+/* .pac-item {
+  color:white  !important;
+} */
+
+/* /* background-image: url("../src/assets/images/logo.webp");
+  background-repeat: no-repeat;
+  background-size: 70% */
+
+/* <button className="px-6 py-1 bg-gradient-to-r from-purple-500 to-blue-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition duration-300">
+  Gradient Button
+</button> */
