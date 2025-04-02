@@ -24,10 +24,7 @@ const Prises = () => {
       drop_lng:dropLocation.lng,
       drop_address:dropLocation.address,
       id:param.id,
-
     }
-
-
     try {
       const responce = await axios.post(`${import.meta.env.VITE_localhost}/user/distance-matrix`,data)
       console.log(responce)
