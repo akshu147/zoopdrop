@@ -11,7 +11,7 @@ import { MyContext } from '../../contextapi/Context'
 import { FaLocationCrosshairs } from 'react-icons/fa6'
 import Cookies from 'js-cookie'
 import 'react-toastify/dist/ReactToastify.css'
-import { toast } from 'react-toastify'
+// import { toast } from 'react-toastify'
 import Ofset from '../componants/Ofset'
 
 const Home = () => {
