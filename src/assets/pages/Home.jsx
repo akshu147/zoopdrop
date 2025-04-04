@@ -143,6 +143,7 @@ const Home = () => {
     e.preventDefault()
 
     const usercookie = Cookies.get('webtoken')
+    const firebasecookie = Cookies.get("firebasetoken")
     if (!usercookie) return  navigate('/login')
     let tokendata
     if (usercookie) {
